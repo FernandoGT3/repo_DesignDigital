@@ -1,0 +1,463 @@
+/* Estilização Das Partes Fixas( que estarão em todas as páginas*/
+
+/*Estilização da aba de navegação*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #497fcf;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none
+}
+
+/*Estilização básica do corpo das páginas*/
+
+body{
+    font-family: sans-serif;
+    color: #1c1c1c;
+}
+
+h1, h2, h3{
+    font-family: sans-serif;
+    color: #000000
+}
+
+/*Estilização da parte Contato e do Footer*/
+
+#contato{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+}
+
+#contato ul{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: large;
+}
+
+#contato img{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    font-size: x-large;
+}
+
+footer img{
+    width: 35%;
+}
+
+
+
+/*Estilização da Página Home*/
+/*Estilização da Parte "Sobre"*/
+#headerHome{
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    background-image: url("../img/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;     
+}
+
+#headerHome div{
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+
+#headerHome div h1{
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 50px;
+}
+
+#headerHome div p {
+    text-align: left;
+    margin-bottom: 2em;
+    font-size: 25px;
+}
+
+#headerHome img{
+    box-align: right;
+    width: 80%;
+    margin-left: 130px;
+}
+
+
+/*Estilização da Parte "Profissional"*/
+
+#profissional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;    
+    font-size: 25px;
+}
+
+#profissional p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    font-size: x-large;    
+}
+
+#profissional img{
+    width: 30%;
+}
+
+/*Estilização da Parte "Trabalhos"*/
+
+#trabalho{
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 25px;    
+}
+
+#trabalho ul{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: large;
+    
+}
+
+#trabalho img{
+    width:30%
+}
+
+#trabalho ul li img{
+    width: 55%;
+}
+
+
+/*Estilização da Página Sobre*/
+/*Estilização do Cabeçalho*/
+#headerSobre{
+    display: flex;    
+    padding: 30px;
+    text-align: center;
+    width: 30%;
+    flex-direction: column;
+    margin-left: 33.5%;   
+}
+
+/*Estilização da parte "Introdução"*/
+
+#introdução{
+    text-align: left;
+    margin-left: 6.6%;
+    font-size: x-large;  
+    margin-top: 5%;  
+}
+
+#introdução div{
+    display: flex;
+    text-align: left;
+    flex-direction: row;    
+}
+
+#p_introdução{
+    font-size: large;
+    padding: 20px;
+    margin-top: -18%;
+    margin-right: 40%;  
+}
+
+#introdução div img{
+    width: 30%;
+    margin-left: 60%;
+}
+
+
+/*Estilização da parte "Educação"*/
+
+#educação{
+    font-size: x-large;
+    margin-left: 6.6%;
+    text-align: left;
+    margin-top: 15%;   
+}
+
+#educação div{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 10px;
+}
+
+#educação div p{
+    font-size: large;
+    margin-top: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#educação div img{
+    width: 30%;
+}
+
+#educaçãoreverse img {
+    margin-left: 60%;
+    padding-top: 30px;
+}
+
+#educaçãoreverseparagrafo{
+    margin-right: 30%;
+    margin-top: -30%;
+    padding: 20px
+}
+
+#educação1{
+    margin-top: 10%;
+}
+
+/*Estilização da parte "Esportes"*/
+
+#esportes{
+    font-size: x-large;
+    margin-left: 6.6%;
+}
+
+#esportes div {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px;
+}
+
+#esportes div p{
+    font-size: large;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#esportes div img {
+    width: 30%;
+}
+
+/*Estilização da parte "Conquistas"*/
+
+#conquistas{
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    font-size: x-large;   
+    margin-left: 6.6%;
+    margin-right: 6.6%;
+}
+
+#conquistas ul{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    font-size: large;   
+}
+
+#conquistas ul img{
+    width: 60%;
+}
+
+/*Estilizção da Página "Vida Profissional"*/
+/*Estilizção do cabeçalho*/
+#headerProfissional{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    font-size: large;
+}
+
+#headerProfissional img{
+    width: 30%;
+}
+
+/*Estilizção da parte "O que faz um Software Developer*/
+
+#SoftwareDev{
+    margin-left: 6.6%;
+    font-size: x-large;
+}
+
+#SoftwareDev div{
+    display: flex;
+    text-align: left;
+    flex-direction: row;    
+}
+
+#SoftwareDev div p{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: large;
+}
+
+#SoftwareDev img{
+    width: 30%;
+}
+
+/*Estilizção da parte "Diponível no Mercado"*/
+
+#DisponivelMercado{
+    text-align: left;
+    margin-left: 6.6%;
+    font-size: x-large;  
+    margin-top: 5%;  
+}
+
+#DisponivelMercado div{
+    display: flex;
+    text-align: left;
+    flex-direction: row;    
+}
+
+#paragrafodisponivel{
+    font-size: large;
+    padding: 20px;
+    margin-top: -18%;
+    margin-right: 35%;  
+}
+
+#DisponivelMercado div img{
+    width: 30%;
+    margin-left: 60%;
+}
+
+
+/*Estilização do Currículo*/
+/*Estilização do Currículo (Introdução)*/
+#currículo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-large;
+    margin-top: 5%;
+}
+
+#currículo img{
+    width: 30%;
+}
+
+/*Estilização do Currículo (Informações)*/
+
+#CurrículoInformações{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 6.6% ;
+    font-size: large;
+}
+#CurrículoInformações p {
+    font-size: large;
+}
+
+/*Estilização do Currículo (Formação Escolar)*/
+
+#FormaçãoEscolar{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 6.6%;
+    font-size: large;
+}
+
+#FormaçãoEscolar img {    
+    width: 30%;
+    margin-left: 32%;
+    padding: 0px;    
+}
+
+/*Estilização do Currículo (Cursos Extracurriculares)*/
+
+#cursos h2 { 
+    margin-left: 6.6%;
+    font-size: x-large;
+}
+
+#cursos div {
+    display: flex;
+    text-align: left;
+    padding: 30px;    
+    flex-direction: row;
+    margin-left: 6.6%;    
+}
+
+#cursos div p{
+    display: flex;
+    margin-right: 3%;
+    margin-top: 10%;
+    margin-left: 3%;
+    font-size: large;    
+}
+
+#cursos div img{
+    width: 30%;
+}
+
+/*Estilização do Currículo (Habilidades)*/
+
+#habilidades{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: x-large; 
+}
+
+#habilidades ul{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: large;
+}
+
+#habilidades ul img{
+    width: 55%;
+}
